@@ -1,14 +1,11 @@
 package com.salmanwahid.learningjava;
-//Demonstrate lifetime of a variable.
-class VarInitDemo{
-  public static void main(String args[]) {
-    int x;
-	
-	for(x = 0; x < 3; x++) {
-	  int y = -1; // y initialized each time block is entered
-	  System.out.println("y is: " + y) ; // this always print -1
-	  y = 100;
-	  System.out. println("y is now: " + y) ;
+class KbIn {
+	public static void main(String args[]) throws
+		 java.io.IOException {
+		
+		char ch;
+		System.out.print("Press akey followed by ENTER: ");
+		ch = (char) System.in.read(); //get a char
+		System.out.println("Your key is: " + ch);
 	}
-  }
 }
