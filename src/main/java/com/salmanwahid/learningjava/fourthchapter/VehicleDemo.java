@@ -18,7 +18,7 @@ public class VehicleDemo {
 		minivan.fuelcap = 16;
 		minivan.mpg = 2;
 		
-		System.out.println(minivan.totalkmrun(5));
+		System.out.println(minivan.totalkmrun());
 		range = minivan.fuelcap*minivan.mpg;
 		System.out.println("Minivan can carry " + minivan.passenger +"with a range 0f " + range);
 	}
