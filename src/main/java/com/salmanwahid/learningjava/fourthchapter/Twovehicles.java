@@ -27,5 +27,6 @@ public class Twovehicles {
 class Vehicle1 {
 	int passenger;
 	int fuelcap;
-
+	int mpg;
+	
 }

@@ -10,6 +10,7 @@ public class ContinueWhileExample {
 			}
 			System.out.println(i);
 			i++;
+			
 		}
 	}
 

@@ -24,9 +24,3 @@ public class VehicleDemo {
 	}
 
 }
-class Vehicle {
-	int passenger;
-	int fuelcap;
-	int mpg;
-
-}
