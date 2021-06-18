@@ -2,7 +2,7 @@ package com.salmanwahid.javaexercise;
 
 public class Practice {
 	public static void main(String[] args) {
-		int n = 72;
+		int n = 70;
 				System.out.println("Input number: "+n);
 		if (n/6==12); 
 		else 

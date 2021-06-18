@@ -4,11 +4,11 @@ import java.time.LocalDate;
 
 public class Classes {
 	public static void main(String args[]) {
-		Passport ukPassport = new Passport(number:"12345", country:"England(UK)",
-				 LocalDate.of(year:2025, month:1, dayOfMonth:1));
+		Passport ukPassport = new Passport("12345" , "England(UK)",
+				 LocalDate.of(2025,1, 1));
 		
-		Passport usPassport = new Passport(number:"67890", country:"USA",
-				 LocalDate.of(year:2030, month:1, dayOfMonth:1));
+		Passport usPassport = new Passport("67890", "USA",
+				 LocalDate.of(2030, 1, 1));
 		System.out.println(usPassport+ " and " +ukPassport);
 	}
 	
